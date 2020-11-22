@@ -1,0 +1,13 @@
+com\stuart\hello_rest_db\error\BookUnSupportedFieldPatchException.class
+com\stuart\hello_rest_db\controllers\WelcomeController.class
+com\stuart\hello_rest_db\services\ProductService.class
+com\stuart\hello_rest_db\modul\Entities\Product.class
+com\stuart\hello_rest_db\controllers\RestController.class
+com\stuart\hello_rest_db\configs\SwaggerConfig.class
+com\stuart\hello_rest_db\modul\Entities\SuccessEntity.class
+com\stuart\hello_rest_db\SpringBootWebApp.class
+com\stuart\hello_rest_db\modul\ProductRepository.class
+com\stuart\hello_rest_db\error\BookNotFoundException.class
+com\stuart\hello_rest_db\error\CustomGlobalExceptionHandler.class
+com\stuart\hello_rest_db\configs\SwaggerConfig$1.class
+com\stuart\hello_rest_db\controllers\GuiController.class
