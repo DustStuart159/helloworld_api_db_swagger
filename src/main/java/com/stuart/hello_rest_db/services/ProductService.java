@@ -1,6 +1,6 @@
 package com.stuart.hello_rest_db.services;
 
-import com.stuart.hello_rest_db.modul.Product;
+import com.stuart.hello_rest_db.modul.Entities.Product;
 import com.stuart.hello_rest_db.modul.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

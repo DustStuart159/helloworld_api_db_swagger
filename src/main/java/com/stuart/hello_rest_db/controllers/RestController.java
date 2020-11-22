@@ -2,15 +2,14 @@ package com.stuart.hello_rest_db.controllers;
 
 import com.stuart.hello_rest_db.error.BookNotFoundException;
 import com.stuart.hello_rest_db.error.BookUnSupportedFieldPatchException;
-import com.stuart.hello_rest_db.modul.Product;
+import com.stuart.hello_rest_db.modul.Entities.Product;
 import com.stuart.hello_rest_db.modul.ProductRepository;
-import com.stuart.hello_rest_db.modul.SuccessEntity;
+import com.stuart.hello_rest_db.modul.Entities.SuccessEntity;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import org.joda.time.DateTime;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.stereotype.Controller;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;

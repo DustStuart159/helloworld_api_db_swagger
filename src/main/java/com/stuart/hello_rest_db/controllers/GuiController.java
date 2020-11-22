@@ -1,7 +1,7 @@
 package com.stuart.hello_rest_db.controllers;
 
 
-import com.stuart.hello_rest_db.modul.Product;
+import com.stuart.hello_rest_db.modul.Entities.Product;
 import com.stuart.hello_rest_db.services.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

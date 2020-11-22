@@ -1,4 +1,4 @@
-package com.stuart.hello_rest_db.modul;
+package com.stuart.hello_rest_db.modul.Entities;
 
 import lombok.Data;
 
