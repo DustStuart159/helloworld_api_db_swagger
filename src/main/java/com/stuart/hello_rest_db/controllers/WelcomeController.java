@@ -13,13 +13,8 @@ import springfox.documentation.annotations.ApiIgnore;
 @ApiIgnore
 public class WelcomeController {
 
-	// inject via application.properties
-	@Value("${welcome.message:test}")
-	private String message = "Hello World";
-
 	@RequestMapping("/")
-	public String welcome(Map<String, Object> model) {
-		model.put("message", this.message);
+	public String welcome() {
 		return "index";
 	}
 

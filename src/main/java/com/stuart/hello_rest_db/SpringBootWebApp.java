@@ -7,15 +7,15 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class SpringBootWebApplication extends SpringBootServletInitializer {
+public class SpringBootWebApp extends SpringBootServletInitializer {
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(SpringBootWebApplication.class);
+		return application.sources(SpringBootWebApp.class);
 	}
 
 	public static void main(String[] args) throws Exception {
-		SpringApplication.run(SpringBootWebApplication.class, args);
+		SpringApplication.run(SpringBootWebApp.class, args);
 	}
 
 }
